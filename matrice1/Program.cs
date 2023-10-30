@@ -5,6 +5,7 @@
     static void Main(string[] args)
     {
         int r = 0, c = 0;
+        Console.WriteLine("inserisci il numero di righe: ");
         r = int.Parse(Console.ReadLine());
         Console.WriteLine("inserisci il numero di colonne: ");
         c = int.Parse(Console.ReadLine());
